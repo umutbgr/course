@@ -1,0 +1,25 @@
+# Hugging Face Hub
+
+<CourseFloatingBanner
+    chapter={4}
+    classNames="absolute z-10 right-0 top-0"
+/>
+
+[Hugging Face Hub](https://huggingface.co/) –- ana web sitemiz –- herkesin en güncel (state-of-the-art) modelleri ve veri kümelerini keşfetmesini, kullanmasını ve bunlara katkıda bulunmasını sağlayan merkezi bir platformdur[cite: 1].
+ 10.000'den fazlası halka açık olmak üzere, çok çeşitli modellere ev sahipliği yapar[cite: 2].
+ Bu bölümde modellere odaklanacağız ve veri kümelerine Bölüm 5'te göz atacağız[cite: 3].
+
+Hub'daki modeller sadece 🤗 Transformers veya NLP (Doğal Dil İşleme) ile sınırlı değildir[cite: 3].
+ Örnek vermek gerekirse; NLP için [Flair](https://github.com/flairNLP/flair) ve [AllenNLP](https://github.com/allenai/allennlp), ses (speech) için [Asteroid](https://github.com/asteroid-team/asteroid) ve [pyannote](https://github.com/pyannote/pyannote-audio) ve görüntü (vision) için [timm](https://github.com/rwightman/pytorch-image-models) modelleri bulunmaktadır[cite: 4].
+ Bu modellerin her biri, sürüm oluşturmaya ve yeniden üretilebilirliğe olanak tanıyan bir Git deposu olarak barındırılır[cite: 5].
+ Hub üzerinde bir model paylaşmak, onu topluluğa açmak ve kolayca kullanmak isteyen herkes için erişilebilir kılmak anlamına gelir; bu da kullanıcıların kendi modellerini eğitme ihtiyacını ortadan kaldırır, paylaşımı ve kullanımı basitleştirir[cite: 6].
+ Ayrıca, Hub'da bir model paylaşmak, o model için barındırılan bir Çıkarım API'sini (Inference API) otomatik olarak devreye alır[cite: 7].
+ Topluluktaki herkes, modeli doğrudan modelin sayfası üzerinden, özel girdiler ve uygun araçlarla (widgets) test etmekte özgürdür[cite: 8].
+ En iyi yanı ise, Hub üzerindeki herhangi bir halka açık modeli paylaşmanın ve kullanmanın tamamen ücretsiz olmasıdır[cite: 9]!
+ Modellerinizi özel (private) olarak paylaşmak isterseniz [ücretli planlar](https://huggingface.co/pricing) da mevcuttur[cite: 10].
+
+Hugging Face Hub'da nasıl gezinileceğini öğrenmek için aşağıdaki eğitici videoyu izleyebilirsin:
+
+**[Hugging Face Hub'da Gezinme (Eğitici Video)](https://www.youtube.com/watch?v=XvSGPZFEjDY)** 
+
+Hugging Face Hub üzerinde depolar oluşturup yöneteceğimiz için, bu bölümü takip edebilmek adına bir huggingface.co hesabına sahip olmanız gerekmektedir: [hesap oluşturun](https://huggingface.co/join)

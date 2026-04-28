@@ -1,0 +1,57 @@
+# Transformers Nedir?
+
+Transformers, doğal dil işleme (NLP) alanında kullanılan güçlü bir derin öğrenme mimarisidir. İlk olarak 2017 yılında tanıtılmıştır ve metinle ilgili görevlerde büyük bir devrim yaratmıştır.
+
+## Neden Transformers?
+
+Önceki modeller (RNN ve LSTM gibi), sıralı veriler üzerinde çalışırken bazı sınırlamalara sahipti:
+
+- Uzun bağımlılıkları öğrenmekte zorlanırlar
+- Paralel işlem yapamazlar
+- Eğitim süreleri uzundur
+
+Transformers bu sorunları çözmek için **attention (dikkat) mekanizmasını** kullanır.
+
+## Attention (Dikkat) Mekanizması
+
+Attention, modelin bir cümledeki her kelimenin diğer kelimelerle olan ilişkisini anlamasını sağlar.
+
+Örneğin:
+
+> "The animal didn’t cross the street because it was too tired."
+
+Bu cümledeki "it" kelimesinin neyi ifade ettiğini anlamak için model attention mekanizmasını kullanır.
+
+## Transformer Mimarisi
+
+Bir transformer modeli iki ana bileşenden oluşur:
+
+- Encoder (Kodlayıcı)
+- Decoder (Çözücü)
+
+### Encoder
+
+Encoder, giriş metnini alır ve onu anlamlı bir vektör temsiline dönüştürür.
+
+### Decoder
+
+Decoder, encoder’dan gelen bu temsili kullanarak çıktı üretir.
+
+## Self-Attention
+
+Self-attention, bir kelimenin aynı cümledeki diğer kelimelerle olan ilişkisini hesaplar.
+
+Bu sayede model:
+
+- Bağlamı daha iyi anlar
+- Uzun cümlelerde daha başarılı olur
+
+## Sonuç
+
+Transformers:
+
+- Daha hızlıdır
+- Daha etkilidir
+- Modern NLP sistemlerinin temelini oluşturur
+
+Günümüzde kullanılan birçok model (BERT, GPT vb.) transformer mimarisine dayanır.
